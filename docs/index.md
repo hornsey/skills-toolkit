@@ -2,164 +2,180 @@
 layout: home
 
 hero:
-  name: "🧰 Skills 工具箱"
-  text: "面向 AI Agent 的 Skills 精选项目集"
-  tagline: "按类别整理的中文文档，帮助你快速找到适合的 Skill 并落地使用"
+  name: Skills 工具箱
+  text: 面向 AI Agent 的 Skills 精选项目集
+  tagline: 按类别整理的中文文档，帮助你快速找到适合的 Skill 并落地使用
+  image:
+    src: /logo.svg
+    alt: Skills 工具箱
   actions:
     - theme: brand
-      text: "📚 浏览文档"
-      link: "/index"
+      text: 🚀 开始探索
+      link: /index
     - theme: alt
-      text: "📝 CHANGELOG"
-      link: "/CHANGELOG"
-    - theme: alt
-      text: "🤝 贡献指南"
-      link: "/CONTRIBUTING"
+      text: 📖 贡献指南
+      link: /CONTRIBUTING
 
 features:
   - icon: 🤖
-    title: 🤖 Agent 增强
-    details: "增强 AI Agent 的任务拆解、头脑风暴等核心能力"
+    title: Agent 增强
+    details: 任务拆解、头脑风暴、子 Agent 协作，增强 AI 的核心能力
     link: /Agent增强/
-    linkText: 浏览 6 个 Skills
-
   - icon: 🔧
-    title: 🔧 开发提效
-    details: "调试、代码审查、学习规划、设计图生成"
+    title: 开发提效
+    details: 代码调试、审查、学习规划、设计图生成，让开发快人一步
     link: /开发提效/
-    linkText: 浏览 6 个 Skills
-
   - icon: ✍️
-    title: ✍️ 内容创作
-    details: "文案写作、视频剪辑、PPT 生成、去 AI 味"
+    title: 内容创作
+    details: 专业文案、视频剪辑、PPT 生成、去 AI 味，创作无忧
     link: /内容创作/
-    linkText: 浏览 8 个 Skills
-
   - icon: 📈
-    title: 📈 营销商业
-    details: "麦肯锡顾问、营销方案、创业验证、私董会"
+    title: 营销商业
+    details: 麦肯锡顾问、营销方案、创业验证、商业分析
     link: /营销商业/
-    linkText: 浏览 4 个 Skills
-
   - icon: 📡
-    title: 📡 信息情报
-    details: "AI 日报、资讯订阅、热点追踪、AI 搜索"
+    title: 信息情报
+    details: AI 日报、热点追踪、深度搜索，资讯一网打尽
     link: /信息情报/
-    linkText: 浏览 4 个 Skills
-
   - icon: 🌐
-    title: 🌐 浏览器自动化
-    details: "浏览器操作自动化"
+    title: 浏览器自动化
+    details: AI 控制浏览器，自动完成网页操作和数据采集
     link: /浏览器自动化/
-    linkText: 浏览 1 个 Skills
-
   - icon: 👥
-    title: 👥 关系模拟
-    details: "模拟各种人物关系的 Skill"
+    title: 关系模拟
+    details: 模拟各种人物关系，获得专业建议或情感支持
     link: /关系模拟/
-    linkText: 浏览 2 个 Skills
-
   - icon: 📚
-    title: 📚 学习教育
-    details: "知识蒸馏、学习规划"
+    title: 学习教育
+    details: 知识蒸馏、学习规划，助你高效掌握新技能
     link: /学习教育/
-    linkText: 浏览 2 个 Skills
-
   - icon: 🎨
-    title: 🎨 多媒体
-    details: "视频剪辑、3D 可视化"
+    title: 多媒体
+    details: 视频剪辑、3D 可视化，让创意无限延伸
     link: /多媒体/
-    linkText: 浏览 2 个 Skills
-
   - icon: 🌱
-    title: 🌱 个人成长
-    details: "自我进化、能力提升"
+    title: 个人成长
+    details: 自我进化、能力提升，成为更好的自己
     link: /个人成长/
-    linkText: 浏览 2 个 Skills
-
   - icon: ⚡
-    title: ⚡ 效率工具
-    details: "知识网站生成、Skill 优化进化"
+    title: 效率工具
+    details: 知识网站生成、Skill 优化进化
     link: /效率工具/
-    linkText: 浏览 2 个 Skills
-
   - icon: 📦
-    title: 📦 其他
-    details: "暂未分类的 Skills"
+    title: 其他
+    details: 暂未分类但同样有用的 Skills
     link: /其他/
-    linkText: 浏览 1 个 Skills
 ---
 
-<div align="center">
+<div class="home-content">
 
-## 📊 文档完善度
+## 📊 项目状态
 
-**已完善（15 个）：** 有完整文档（痛点、原理、使用场景、局限）
+::: tip 已完善
+**15 个 Skills** 拥有完整文档，包含痛点分析、原理说明、使用指南、适用场景和局限说明
+:::
 
-**待完善（25 个）：** 骨架文档，需补充内容
-
-</div>
-
----
+::: warning 待完善
+**25 个 Skills** 骨架文档已生成，内容待补充。欢迎贡献！
+:::
 
 ## 🚀 快速开始
 
-### 1. 找 Skill
+### 第一步：找 Skill
 
-根据你的任务类型，从上方分类中找到对应的 Skill。
+根据你的任务类型，从上方分类卡片中找到对应的 Skill。每个分类页面都有详细的 Skill 列表。
 
-### 2. 安装
+### 第二步：安装
 
-每个文档里都有安装命令，例如：
+以 Claude Code 为例，安装命令：
 
 ```bash
 npx skills add https://github.com/obra/superpowers --skill systematic-debugging
 ```
 
-### 3. 使用
+其他平台安装方式请参考 [贡献指南](/CONTRIBUTING)。
 
-直接用自然语言描述需求：
+### 第三步：使用
 
-> "用 systematic-debugging 的方法帮我排查 XXX 问题"
+直接在对话中描述需求：
 
----
+> "用 systematic-debugging 的方法帮我排查这个 Bug"
 
-## 🔧 工具
+## 🔧 工具链
 
 ### 转换脚本
 
-如果你有新的 Skills 表格数据，可以运行转换脚本自动生成文档：
+如果你是贡献者，有新的 Skills 数据要添加：
 
 ```bash
 # 1. 编辑源文件
 vim source/Skills工具箱.md
 
-# 2. 运行转换脚本
+# 2. 运行转换脚本自动生成分类文档
 node scripts/convert.js
 
 # 3. 查看生成的文档
-ls docs/
+ls docs/*/
 ```
 
----
+## 🤝 一起完善
 
-## 🤝 如何贡献
+本项目欢迎任何人贡献！
 
-欢迎提交 PR 完善 Skills 文档！
+- 📝 补充骨架文档的内容
+- 🔍 发现问题及时反馈
+- ⭐ Start 支持我们
 
-### 文档规范
+::: details 文档模板说明
+每个 Skill 文档建议包含以下章节：
 
-每个 Skill 文档需包含：
-1. ✅ 痛点 & 问题 — 具体场景，不要泛泛而谈
-2. ✅ 原理 — 至少说明依赖什么工具/接口
-3. ✅ 使用指南 — 含安装命令和至少一个示例
-4. ✅ 适用/不适用场景 — 帮助别人判断是否该用
-5. ⚠️ 局限 & 风险 — 诚实说明不足
+| 章节 | 说明 |
+|------|------|
+| 🎯 痛点 & 问题 | 具体解决什么问题，不要泛泛而谈 |
+| ⚙️ 原理 | 底层机制，至少说明依赖什么工具/接口 |
+| 📖 使用指南 | 安装命令 + 至少一个使用示例 |
+| ✅ 适用场景 | 具体列举，帮助别人判断是否该用 |
+| ❌ 不适用场景 | 诚实说明局限，避免误用 |
+| ⚠️ 局限 & 风险 | 额外注意事项 |
+| 🔗 相关链接 | GitHub 地址 + 相关 Skills |
+:::
 
-### 贡献流程
+</div>
 
-1. Fork 本项目
-2. 在对应分类目录下创建或完善 `.md` 文件
-3. 更新 `docs/index.md` 中的索引
-4. 更新 `CHANGELOG.md` 记录变更
-5. 提交 PR
+<style>
+.home-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home-content .tip,
+.home-content .warning {
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.home-content .tip {
+  background: #e6f7ee;
+  border-left: 4px solid #3eaf7c;
+}
+
+.home-content .warning {
+  background: #fff3e6;
+  border-left: 4px solid #ff9800;
+}
+
+.VPFeature .icon {
+  font-size: 2rem;
+}
+
+.VPFeature .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.VPFeature .details {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+</style>
