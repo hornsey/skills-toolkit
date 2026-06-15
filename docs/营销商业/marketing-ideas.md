@@ -1,43 +1,110 @@
-# marketing\-ideas
+# marketing-ideas
 
-> 让AI为你设计营销方案
+> AI 营销方案设计助手 — 获取营销创意与策略灵感
 
-## 🎯 解决什么问题 & 痛点
+## 🎯 痛点 & 问题
 
-这个 Skill 帮助解决：让AI为你设计营销方案
+- **营销灵感枯竭**：面对产品推广时不知道该用什么渠道和策略
+- **预算有限增长难**：小团队小预算不知道如何实现有效增长
+- **SaaS 产品推广困境**：软件产品的营销方式与传统商品不同，需要特定的增长策略
+- **信息过载难选择**：网上营销方法论太多，不知道哪些真正有效
+- **缺乏系统性营销规划**：知道需要营销但没有整体思路
+
+这个 Skill 帮助解决以上问题，让 AI 为你设计针对性的营销方案。
 
 ## ⚙️ 原理
 
-基于 marketing\-ideas 的设计理念，（请补充：底层机制是什么？依赖哪些工具或接口？核心逻辑是什么？）
+基于 **Marketing Skills for AI Agents** 技能库构建，核心设计理念：
+
+1. **先读产品上下文**：检查 `.agents/product-marketing.md` 文件，了解你的产品、用户和定位
+2. **分类快速获取**：将营销策略按类别和时间线组织，方便快速查找
+3. **针对性推荐**：根据产品特点和预算推荐最合适的营销思路
+
+**核心分类**：
+- **内容&SEO**：Programmatic SEO、Glossary 营销、内容再利用
+- **内容格式**：播客、课程、年报、年度回顾
+- **时间线**：按预算和周期分类的营销策略
+- **增长方式**：Low Budget Growth、Product-Led Growth
+
+**技术架构**：
+- Skills 之间相互引用：`copywriting` ↔ `cro` ↔ `ab-testing`
+- `product-marketing` 作为基础，其他技能都依赖它读取产品信息
+- 40+ 营销技能形成完整生态
 
 ## 📖 使用指南
 
 ### 安装方式
 
 ```bash
-npx skills add [https://github\.com/coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) \-\-skill marketing\-ideas
+npx skills add coreyhaines31/marketingskills
 ```
+
+这会安装整个营销技能库（40+技能），包括 `marketing-ideas`。
 
 ### 使用示例
 
-（暂无示例，欢迎补充）
+**获取营销灵感：**
+```
+"请使用 marketing-ideas skill，帮我设计一个针对中小企业 SaaS产品的营销方案"
+```
+
+**结合产品上下文：**
+首先确保项目中有 `product-marketing.md` 文件，然后直接提问：
+```
+"我们是一款项目管理工具，有什么好的内容营销策略？"
+```
+
+**按预算获取策略：**
+```
+"我只有 5000 预算，有什么低成本的增长方法？"
+```
+
+**快速参考分类**：
+| 类别 | 编号范围 | 示例 |
+|------|----------|------|
+| 内容&SEO | 1-10 | Programmatic SEO, Glossary 营销 |
+| 内容格式 | 97-109 | 播客、课程、年报 |
+| Low Budget Growth | - | 社区营销、口碑传播 |
+| Product-Led Growth | - | 免费试用、Freemium |
 
 ## ✅ 适用场景
 
-- （请补充：什么情况下应该用这个 Skill？）
+- **SaaS/软件产品推广**：产品导向型增长策略
+- **内容营销规划**：博客、视频、社交媒体内容策略
+- **SEO 优化方案**：搜索引擎优化和 AI 搜索优化
+- **增长黑客策略**：低预算高回报的增长方法
+- **营销活动策划**：产品发布、促销活动的整体方案
+- **竞争对手分析**：了解市场同类产品的营销方式
 
 ## ❌ 不适用场景
 
-- （请补充：什么情况下不适合用？有什么坑？）
+- **需要立即执行**：Skill 只提供策略建议，不包含执行代码
+- **纯品牌营销**：侧重效果营销，对品牌调性把控有限
+- **复杂技术实现**：如需技术实现选择 `cro` 或 `ab-testing` 技能
+- **线下营销**：主要针对数字营销场景
+
+## ⚠️ 局限 & 风险
+
+- **策略通用性**：提供的策略是通用建议，需根据实际情况调整
+- **市场变化快**：营销策略可能随平台算法变化而失效
+- **效果难以保证**：策略效果取决于执行质量和市场竞争
+- **数据依赖**：高质量输出依赖完善的产品上下文
 
 ## 🔗 相关链接
 
-- GitHub：https://github\.com/coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
-- 文档：（暂无）
+- **GitHub**：https://github.com/coreyhaines31/marketingskills
+- **官方网站**：https://marketing-skills.com
+- **Skill 文档**：https://github.com/coreyhaines31/marketingskills/blob/main/skills/marketing-ideas/SKILL.md
+- **完整技能列表**：仓库包含 40+ 营销技能可按需安装
+- **Discord 社区**：可与其他营销者分享经验和案例
+
+---
 
 ## 📝 更新日志
 
+- `2026-06-15` 补充完整文档（安装命令、使用示例、适用场景等）
 - `2026-06-15` 初始化文档
 
 ---
+
 *本文档由 [Skills 工具箱](https://github.com/你的项目地址) 自动生成*
