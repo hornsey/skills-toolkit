@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Generated docs (regenerate from source)
+# docs/*.md
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
