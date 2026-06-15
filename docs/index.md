@@ -20,51 +20,51 @@ features:
   - icon: 🤖
     title: Agent 增强
     details: 任务拆解、头脑风暴、子 Agent 协作，增强 AI 的核心能力
-    link: /Agent增强/
+    link: /agent-enhancement/
   - icon: 🔧
     title: 开发提效
     details: 代码调试、审查、学习规划、设计图生成，让开发快人一步
-    link: /开发提效/
+    link: /dev-efficiency/
   - icon: ✍️
     title: 内容创作
     details: 专业文案、视频剪辑、PPT 生成、去 AI 味，创作无忧
-    link: /内容创作/
+    link: /content-creation/
   - icon: 📈
     title: 营销商业
     details: 麦肯锡顾问、营销方案、创业验证、商业分析
-    link: /营销商业/
+    link: /marketing-business/
   - icon: 📡
     title: 信息情报
     details: AI 日报、热点追踪、深度搜索，资讯一网打尽
-    link: /信息情报/
+    link: /info-intelligence/
   - icon: 🌐
     title: 浏览器自动化
     details: AI 控制浏览器，自动完成网页操作和数据采集
-    link: /浏览器自动化/
+    link: /browser-automation/
   - icon: 👥
     title: 关系模拟
     details: 模拟各种人物关系，获得专业建议或情感支持
-    link: /关系模拟/
+    link: /relationship-simulation/
   - icon: 📚
     title: 学习教育
     details: 知识蒸馏、学习规划，助你高效掌握新技能
-    link: /学习教育/
+    link: /learning-education/
   - icon: 🎨
     title: 多媒体
     details: 视频剪辑、3D 可视化，让创意无限延伸
-    link: /多媒体/
+    link: /multimedia/
   - icon: 🌱
     title: 个人成长
     details: 自我进化、能力提升，成为更好的自己
-    link: /个人成长/
+    link: /personal-growth/
   - icon: ⚡
     title: 效率工具
     details: 知识网站生成、Skill 优化进化
-    link: /效率工具/
+    link: /efficiency-tools/
   - icon: 📦
     title: 其他
     details: 暂未分类但同样有用的 Skills
-    link: /其他/
+    link: /others/
 ---
 
 <div class="home-content">
