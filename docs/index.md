@@ -1,137 +1,165 @@
-# Skills 工具箱 - 文档索引
+---
+layout: home
 
-> 本目录包含 40 个 Skills 的中文文档，按类别整理。
+hero:
+  name: "🧰 Skills 工具箱"
+  text: "面向 AI Agent 的 Skills 精选项目集"
+  tagline: "按类别整理的中文文档，帮助你快速找到适合的 Skill 并落地使用"
+  actions:
+    - theme: brand
+      text: "📚 浏览文档"
+      link: "/index"
+    - theme: alt
+      text: "📝 CHANGELOG"
+      link: "/CHANGELOG"
+    - theme: alt
+      text: "🤝 贡献指南"
+      link: "/CONTRIBUTING"
 
-![Progress](https://img.shields.io/badge/Skills-40+-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+features:
+  - icon: 🤖
+    title: 🤖 Agent 增强
+    details: "增强 AI Agent 的任务拆解、头脑风暴等核心能力"
+    link: /Agent增强/
+    linkText: 浏览 6 个 Skills
+
+  - icon: 🔧
+    title: 🔧 开发提效
+    details: "调试、代码审查、学习规划、设计图生成"
+    link: /开发提效/
+    linkText: 浏览 6 个 Skills
+
+  - icon: ✍️
+    title: ✍️ 内容创作
+    details: "文案写作、视频剪辑、PPT 生成、去 AI 味"
+    link: /内容创作/
+    linkText: 浏览 8 个 Skills
+
+  - icon: 📈
+    title: 📈 营销商业
+    details: "麦肯锡顾问、营销方案、创业验证、私董会"
+    link: /营销商业/
+    linkText: 浏览 4 个 Skills
+
+  - icon: 📡
+    title: 📡 信息情报
+    details: "AI 日报、资讯订阅、热点追踪、AI 搜索"
+    link: /信息情报/
+    linkText: 浏览 4 个 Skills
+
+  - icon: 🌐
+    title: 🌐 浏览器自动化
+    details: "浏览器操作自动化"
+    link: /浏览器自动化/
+    linkText: 浏览 1 个 Skills
+
+  - icon: 👥
+    title: 👥 关系模拟
+    details: "模拟各种人物关系的 Skill"
+    link: /关系模拟/
+    linkText: 浏览 2 个 Skills
+
+  - icon: 📚
+    title: 📚 学习教育
+    details: "知识蒸馏、学习规划"
+    link: /学习教育/
+    linkText: 浏览 2 个 Skills
+
+  - icon: 🎨
+    title: 🎨 多媒体
+    details: "视频剪辑、3D 可视化"
+    link: /多媒体/
+    linkText: 浏览 2 个 Skills
+
+  - icon: 🌱
+    title: 🌱 个人成长
+    details: "自我进化、能力提升"
+    link: /个人成长/
+    linkText: 浏览 2 个 Skills
+
+  - icon: ⚡
+    title: ⚡ 效率工具
+    details: "知识网站生成、Skill 优化进化"
+    link: /效率工具/
+    linkText: 浏览 2 个 Skills
+
+  - icon: 📦
+    title: 📦 其他
+    details: "暂未分类的 Skills"
+    link: /其他/
+    linkText: 浏览 1 个 Skills
+---
+
+<div align="center">
+
+## 📊 文档完善度
+
+**已完善（15 个）：** 有完整文档（痛点、原理、使用场景、局限）
+
+**待完善（25 个）：** 骨架文档，需补充内容
+
+</div>
 
 ---
 
-## 📚 分类索引
+## 🚀 快速开始
 
-### 🤖 Agent 增强 (6 个)
+### 1. 找 Skill
 
-→ [进入分类](./Agent增强/README.md)
+根据你的任务类型，从上方分类中找到对应的 Skill。
 
-- [document\-skills](./Agent增强/1-document-skills.md) — 文档技能包
-- [brainstorming](./Agent增强/3-brainstorming.md) — 结构化头脑风暴技能包
-- [agent\-tools](./Agent增强/9-agent-tools.md) — 任务自动拆分并分配给子Agent
-- [using\-superpowers](./Agent增强/14-using-superpowers.md) — 深度思考放大你的能力
-- [OpenClaw Agent Optimize](./Agent增强/21-openclaw-agent-o-ptimize.md) — 优化你的Agent
-- [SoulTrace](./Agent增强/31-soultrace.md) — 性格测试技能
+### 2. 安装
 
----
+每个文档里都有安装命令，例如：
 
-### 🎨 多媒体 (2 个)
+```bash
+npx skills add https://github.com/obra/superpowers --skill systematic-debugging
+```
 
-→ [进入分类](./多媒体/README.md)
+### 3. 使用
 
-- [remotion\-skills](./多媒体/2-remotion-skills.md) — AI 视频剪辑
-- [AetherViz Master](./多媒体/12-aetherviz-master.md) — 把内容变成3D可视化呈现
+直接用自然语言描述需求：
+
+> "用 systematic-debugging 的方法帮我排查 XXX 问题"
 
 ---
 
-### 📈 营销商业 (4 个)
+## 🔧 工具
 
-→ [进入分类](./营销商业/README.md)
+### 转换脚本
 
-- [mckinsey\-consultant](./营销商业/4-mckinsey-consultant.md) — 麦肯锡顾问
-- [validate\-idea](./营销商业/26-validate-idea.md) — 帮你验证创业想法少走弯路
-- [marketing\-ideas](./营销商业/27-marketing-ideas.md) — 让AI为你设计营销方案
-- [roundtable](./营销商业/28-roundtable.md) — 一个智囊团帮你分析复杂问题
+如果你有新的 Skills 表格数据，可以运行转换脚本自动生成文档：
 
----
+```bash
+# 1. 编辑源文件
+vim source/Skills工具箱.md
 
-### 🔧 开发提效 (6 个)
+# 2. 运行转换脚本
+node scripts/convert.js
 
-→ [进入分类](./开发提效/README.md)
-
-- [canvas\-design](./开发提效/5-canvas-design.md) — 一句话生成设计图
-- [skill\-scanner](./开发提效/11-skill-scanner.md) — Skill 代码安全审查
-- [systematic\-debugging](./开发提效/16-systematic-debugging.md) — 让AI进行科学的代码故障排查
-- [ship\-learn\-next](./开发提效/17-ship-learn-next.md) — 让AI进行学习行动规划
-- [excalidraw\-diagram\-generator](./开发提效/18-excalidraw-diagram-generator.md) — 让AI画流程图等知识图谱
-- [Proactive Agent](./开发提效/19-proactive-agent.md) — 让AI拥有主动性
+# 3. 查看生成的文档
+ls docs/
+```
 
 ---
 
-### ✍️ 内容创作 (8 个)
+## 🤝 如何贡献
 
-→ [进入分类](./内容创作/README.md)
+欢迎提交 PR 完善 Skills 文档！
 
-- [copywriting](./内容创作/6-copywriting.md) — 专业营销文案写手
-- [baoyu\-post\-to\-wechat](./内容创作/7-baoyu-post-to-wechat.md) — 公众号自动发布
-- [content\-strategy](./内容创作/23-content-strategy.md) — 内容策略生成器
-- [[humanize\-ai\-text](https://clawhub.ai/moltbro/humanize-ai-text)](./内容创作/24-humanize-ai-text-https-clawhub-ai-moltbro-humanize-ai-text.md) — 使文案内容去AI味
-- [baoyu\-comic](./内容创作/25-baoyu-comic.md) — 让你的干货内容变成漫画更有传播力
-- [Content Creator](./内容创作/30-content-creator.md) — 内容创作助手
-- [video\-use skill](./内容创作/38-video-use-skill.md) — 帮你的口播视频剪成成片
-- [Guizang PPT Skill](./内容创作/40-guizang-ppt-skill.md) — 将文章一键快速变成有设计感的PPT
+### 文档规范
 
----
+每个 Skill 文档需包含：
+1. ✅ 痛点 & 问题 — 具体场景，不要泛泛而谈
+2. ✅ 原理 — 至少说明依赖什么工具/接口
+3. ✅ 使用指南 — 含安装命令和至少一个示例
+4. ✅ 适用/不适用场景 — 帮助别人判断是否该用
+5. ⚠️ 局限 & 风险 — 诚实说明不足
 
-### 🌐 浏览器自动化 (1 个)
+### 贡献流程
 
-→ [进入分类](./浏览器自动化/README.md)
-
-- [browser\-use](./浏览器自动化/8-browser-use.md) — 浏览器自动化操作
-
----
-
-### 📦 其他 (1 个)
-
-→ [进入分类](./其他/README.md)
-
-- [find\-skills](./其他/10-find-skills.md) — 帮你查找合适的skills
-
----
-
-### 📡 信息情报 (4 个)
-
-→ [进入分类](./信息情报/README.md)
-
-- [AI Daily Digest](./信息情报/13-ai-daily-digest.md) — 自动生成AI信息日报
-- [Tavily AI Search](./信息情报/22-tavily-ai-search.md) — 让AI增加搜索功能
-- [ai\-news\-zh](./信息情报/29-ai-news-zh.md) — 为你打造一手AI资讯的私人情报专员
-- [Aihot skill](./信息情报/39-aihot-skill.md) — 帮你整理每日AI资讯
-
----
-
-### 🌱 个人成长 (2 个)
-
-→ [进入分类](./个人成长/README.md)
-
-- [self\-improving\-agent](./个人成长/15-self-improving-agent.md) — 让你的AI每日持续进化
-- [PUA Skill](./个人成长/20-pua-skill.md) — 让AI迸发活力提升能动性
-
----
-
-### 📚 学习教育 (2 个)
-
-→ [进入分类](./学习教育/README.md)
-
-- [女娲](./学习教育/32-女娲.md) — 蒸馏高手的思维方式
-- [**cangjie\-skill**](./学习教育/36-cangjie-skill.md) — 将书本转换为Skills
-
----
-
-### 👥 关系模拟 (2 个)
-
-→ [进入分类](./关系模拟/README.md)
-
-- [各式关系 Skill](./关系模拟/33-各式关系-skill.md) — 蒸馏任何关系为一个Skill
-- [create\-yourself](./关系模拟/34-create-yourself.md) — 蒸馏自己的信息成为一个AI插件
-
----
-
-### ⚡ 效率工具 (2 个)
-
-→ [进入分类](./效率工具/README.md)
-
-- [darwin\-skill](./效率工具/35-darwin-skill.md) — 自动评测优化让你的Skill进化
-- [knowledge\-site\-creator](./效率工具/37-knowledge-site-creator.md) — 将知识生成学习网站
-
----
-
-
-*最后更新：2026-06-15*
+1. Fork 本项目
+2. 在对应分类目录下创建或完善 `.md` 文件
+3. 更新 `docs/index.md` 中的索引
+4. 更新 `CHANGELOG.md` 记录变更
+5. 提交 PR

@@ -1,0 +1,19 @@
+{
+  "name": "skills-toolkit",
+  "version": "1.0.0",
+  "description": "面向 AI Agent 的 Skills 精选项目集",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": ["skills", "ai", "agent", "toolkit"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.38"
+  }
+}
