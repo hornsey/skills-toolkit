@@ -46,6 +46,8 @@ export default defineConfig({
     }
   },
 
+  cleanUrls: true,
+
   ignoreDeadLinks: true,
 
   vite: {
